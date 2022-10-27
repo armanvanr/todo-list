@@ -1,6 +1,6 @@
 .square-style {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 150px;
   border: 1px solid green;
   border-radius: 10px;
   display: flex;
@@ -9,7 +9,14 @@
   background-color: azure;
 }
 
-.list-container {
+.working-list {
   display: flex;
   gap: 12px;
+  margin: 20px auto;
+}
+
+.form-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
